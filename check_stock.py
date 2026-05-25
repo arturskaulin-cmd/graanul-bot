@@ -5,7 +5,7 @@ import os
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 
-OUT_OF_STOCK_TEXT = "pagaidām jaunus pasūtījumus nevaram pieņemt"
+OUT_OF_STOCK_TEXT = "TESTS_NEEKSISTEJOSS_TEKSTS_XYZ999"
 
 def check_stock():
     headers = {"User-Agent": "Mozilla/5.0"}
